@@ -26,6 +26,8 @@ namespace AppSec.Pages
         {
         }
 
+
+        [ValidateAntiForgeryToken]
         //save data into database
         public async Task<IActionResult> OnPostAsync()
         {

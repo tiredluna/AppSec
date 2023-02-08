@@ -36,6 +36,7 @@ namespace AppSec.Pages
         }
 
         //Save data into database
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> OnPostAsync()
         {
             if (ModelState.IsValid)
