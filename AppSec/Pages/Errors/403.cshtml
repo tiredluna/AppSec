@@ -1,0 +1,19 @@
+﻿@page
+@model AppSec.Pages.Errors._403Model
+@{
+    ViewData["title"] = "Forbidden";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h1 style="font-size: 150px; color: #0275d8; margin-bottom: 0px;">403</h1>
+        <p style="font-size: 50px; ">Forbidden.</p>
+        <p>You don't have access to this resource.</p>
+        <p>Please navigate back to the <a asp-page="/Index">Home Page</a></p>
+    </div>
+    <div class="col-md-4">
+        <br />
+        <img src="/uploads/prohibition.png" alt="sad" style="height:300px;width:300px" />
+        <br />
+    </div>
+</div>
