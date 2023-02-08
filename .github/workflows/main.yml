@@ -1,2 +1,0 @@
-name: Set CodeQL Languages
-  uses: advanced-security/set-codeql-language-matrix@v1
